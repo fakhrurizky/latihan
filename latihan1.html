@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan</title>
+
+<!--link untuk folder bootstrap -->   
+    <link rel="stylesheet" href="assets/plugin/bootstrap/css/bootstrap.css" />
+ <!--link untuk folder css-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- header-->
+    <div id="navbar">
+        <div class="logo">
+            <a class="a-style-navbar" href="latihan.html">LOGO</a>
+        </div>
+        <div class="menu">
+            <ul class="wrapper-list-menu">
+                <li class="list-menu">
+                    <a class="a-style-navbar" href="#About">About</a>
+                </li>
+                <li class="list-menu">
+                    <a class="a-style-navbar" href="#Article">Article</a>
+                </li>
+                <li class="list-menu">
+                    <a class="a-style-navbar"  href="#subscribe">Subscribe</a>
+                </li>
+            </ul>
+        </div>
+    </div>   
+    
+<!--body-->  
+<div class="container-fluid" id="About">
+    <div class="row banner" >
+        <div class="col wrapper-banner" style="background-image: url('assets/image/banner.jpg');">
+            <div class="wrapper-text-banner">
+            <h1>ART OF PLAN</h1>
+            <p>ALL ABOUT ART OF NATURE</p>
+            </div>
+        </div>
+        
+        <div class="col-12 product-box"  background-color: #E5E5E5; id="Article">
+            <div class="row wrapper-product-box">
+                <div class="col-12 ">
+                    <h3 class="text-center">LATEST </h3>
+                    <p class="text-center">_____________</p>
+                </div>
+        
+                <div class="col-sm-4 col-md-4 wrapper-p-c card">
+                    <div class="wrapper-image ">
+                        <img class="w-100" src="assets/image/product-1.jpg"/>
+                    </div>
+                    <div class="wrapper-description">
+                        <p class="text-center">_____________</p>
+                        <h5 class="text-center">TULISAN PERTAMA</h5>
+                        <P>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga</P>
+                    </div>
+                </div>
+        
+                <div class="col-sm-4 col-md-4 wrapper-p-c card">
+                    <div class="wrapper-image">
+                        <img class="w-100" src="assets/image/product-2.jpg"/>
+                    </div>
+                    <div class="wrapper-description">
+                        <p class="text-center">_____________</p>
+                        <h5 class="text-center">TULISAN KEDUA</h5>
+                        <P>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt</P>
+                    </div>
+                </div>
+        
+                <div class="col-sm-4 col-md-4 wrapper-p-c card">
+                    <div class="wrapper-image">
+                        <img class="w-100" src="assets/image/product-3.jpg"/>
+                    </div>
+                    <div class="wrapper-description">
+                        <p class="text-center">_____________</p>
+                        <h5 class="text-center">TULISAN KETIGA</h5>
+                        <P>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus</P>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row product-detail" >
+
+        <div class="box-left col-6 p-0">
+            <img class="w-100"src="assets/image/product-detail.jpg"/>
+        </div>
+        
+        <div class="box-right col-6 d-flex justify-content-center align-items-center">
+            <div class="wrapper-desc-detail">
+                <h3 class="text-center">About</h5>
+                <p class="text-center">_____________</p>
+                 <p>
+                        What is Lorem Ipsum?
+                        
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Why do we use it?
+                        
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                </p>
+            </div>
+        </div>
+    </div>
+</div>     
+        
+<div class="container-fluid">
+        <div class="row banner" id="subscribe">
+            <div class="col-12 wrapper-banner" style="background-color:darkgray;">
+                <form action="action_page.php">
+                    <div class="col-12">
+                        <h1>SUBSCRIBE</h1>
+                        <p>sing up to out newsletters</p>
+                    </div>
+                      
+                    <div class="col" style="background-color:white">
+                        <input type="text" placeholder="Text Your email here" name="mail" required>
+                    </div>
+                      
+                    <div class="col">  
+                        <input type="submit" value="submit">
+                    </div>
+                </form> 
+            </div>
+        </div>
+</div>
+<!-- footer-->
+<div id="navbar">
+    <div class="menu">
+        <ul class="wrapper-list-menu">
+            <li class="list-menu">
+                <a class="a-style-navbar" href="#About">About</a>
+            </li>
+            <li class="list-menu">
+                <a class="a-style-navbar" href="#Article">Article</a>
+            </li>
+            <li class="list-menu">
+                <a class="a-style-navbar"  href="#subscribe">Subscribe</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
